@@ -1,0 +1,29 @@
+{
+    "name": "xin6841414/laravel-env",
+    "description": "一个laravel编辑env文件的小工具",
+    "type": "library",
+    "require": {
+    	"php":">7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xin6841414",
+            "email": "xin6841414@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+      "psr-4":{
+          "Xin6841414\\LaravelEnv\\": "./src/"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xin6841414\\LaravelEnv\\ServiceProvider"
+            ]
+        }
+    }
+	
+}	
